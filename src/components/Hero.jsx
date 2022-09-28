@@ -45,9 +45,11 @@ const Hero = () => {
           className="w-[100%] h-[100%] relative z-[5]"
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-[0] pink_gradient" />
+
+        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full top-[0] pink_gradient" />
+
+        <div className="absolute z-[0] w-[40%] h-[35%] top-[0] pink_gradient" />
       </div>
-      {/* background: linear-gradient(0deg, #000000, #000000),
-linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214D76 100%); */}
     </section>
   );
 };
